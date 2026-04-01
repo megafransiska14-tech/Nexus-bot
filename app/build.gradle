@@ -10,8 +10,8 @@ android {
         applicationId "com.nexus.afk"
         minSdk 24
         targetSdk 34
-        versionCode 6
-        versionName "6.0"
+        versionCode 7
+        versionName "7.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -37,6 +37,7 @@ android {
     packagingOptions {
         exclude 'META-INF/proguard/androidx-*.pro'
         exclude 'META-INF/proguard/androidx-annotation-*.pro'
+        exclude 'META-INF/native-debug-symbols.txt'
     }
 
     lint {
@@ -49,6 +50,25 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.android.material:material:1.9.0'
+    
+    // OpenCV untuk computer vision
+    implementation 'org.opencv:opencv-android:4.8.0'
+    
+    // Retrofit untuk API
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    
+    // OkHttp untuk networking
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+    
+    // Coroutines untuk async
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
+    
+    // Room untuk database
+    implementation 'androidx.room:room-runtime:2.6.1'
+    
+    // TensorFlow Lite untuk AI
+    implementation 'org.tensorflow:tensorflow-lite:2.13.0'
     
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

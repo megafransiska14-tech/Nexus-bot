@@ -1,7 +1,7 @@
 /**
  * ╔═══════════════════════════════════════════════════════════════════════════╗
  * ║                                                                           ║
- * ║                    NEXUS v6.0 - MULTI-GAME AFK BOT                       ║
+ * *                    NEXUS v7.0 ULTIMATE - MULTI-GAME AFK BOT               ║
  * ║                                                                           ║
  * ║  Unified Complete Engine - All modules in ONE file                       ║
  * ║  Support: Mobile Legends + FC Mobile + Multi-Account + 24/7 AFK         ║
@@ -10,7 +10,7 @@
  * ║  Use at your own risk - Ban risk is real!                               ║
  * ║                                                                           ║
  * ║  Developed by: Manus AI                                                  ║
- * ║  Version: 6.0                                                            ║
+ * *  Version: 7.0 ULTIMATE                                                            ║
  * ║  Date: 2026-03-31                                                        ║
  * ║                                                                           ║
  * ╚═══════════════════════════════════════════════════════════════════════════╝
@@ -45,7 +45,7 @@ import java.util.Locale;
 
 public class NexusAFKService extends AccessibilityService {
     
-    private static final String TAG = "NEXUS_v6";
+    private static final String TAG = "NEXUS_v7_ULTIMATE";
     private static final String PREFS_NAME = "nexus_prefs";
     
     private SharedPreferences prefs;
